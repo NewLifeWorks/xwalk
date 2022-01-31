@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Bellota-LightItalic';
+    src: url('../fonts/Bellota-LightItalic.otf');
+}
+@font-face {
+    font-family: 'Bellota-BoldItalic';
+    src: url('../fonts/Bellota-BoldItalic.otf');
+}
+
+@font-face {
+    font-family: 'Bellota-Italic';
+    src: url('../fonts/Bellota-Italic.otf');
+}
+@font-face {
+    font-family: 'Bellota-Regular';
+    src: url('../fonts/Bellota-Regular.otf');
+}
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+form {
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: rgb(158, 141, 158);
+
+}
+.wrapper {
+    background-image: url("../images/background/bible-laptop.jpg");
+background-size: 100%;
+width: 100%;
+height: 100%;
+min-width: 950px;
+}
+.login_box {
+    font-family:'Bellota-BoldItalic', sans-serif;
+    font-weight: 400;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    top: 7%;
+    width: 35%;
+    background-color: #fff;
+    border: 1px solid #ededed;
+    border-radius: 7px;
+    padding: 5px;
+    opacity: 0.75;
+}
+.login_header {
+   font-family: 'Bellota-BoldItalic', sans-serif;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(158, 141, 158);
+    text-align: center;
+    text-decoration: bold;
+    border-radius: 7px;
+    margin-bottom: 6px;
+    color: #fff;
+}
+.login_header h1 {
+    font-family: 'Bellota-BoldItalic', sans-serif;
+    font-weight: 100;
+    font-size: 250%;
+    text-shadow: #000 0.5px 0.5px 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(38, 99, 168);
+    text-shadow: #000 .5px .5px 0;
+   
+
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    border: 1px solid #3498db;
+    border-radius: 3px;
+    margin: 5% 0 10px 0;
+    padding: 5px 10px 5px 10px;
+    color:rgb(38, 99, 168);
+    text-shadow: #000 0.5px 0.5px 0px;
+    font-family: 'Bellota-BoldItalic', sans-serif;
+    font-size: 100%;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    border: 1px solid #e5e5e5;
+    width: 50%;
+    margin-top: 5px;
+    width: 50%;
+    height: 35px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+
+}
+input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover {
+border-color: #3498db;
+
+}
+#second {
+    display: none;
+
+}
+
+
+
+
